@@ -1,0 +1,131 @@
+body {
+  font-family: Poppins;
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  font-size: 50px;
+}
+h3 {
+  font-size: 30px;
+}
+h2{
+   font-size: 40px;
+}
+
+p {
+  color: #3e3e3e;
+  font-size: 18px;
+}
+
+button {
+  padding: 15px 25px;
+  border: none;
+  background-color: #ff5959;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+section {
+   height: 550px;
+   padding-bottom: 150px;
+ }
+
+/* Header Section CSS Start */
+.text-style {
+  color: orange;
+}
+.person-info {
+  width: 45%;
+  height: 400px;
+  float: left;
+  padding-left: 50px;
+}
+.person-info img {
+  width: 80%;
+}
+.name-part {
+  border-left: 4px solid #ff5959;
+  font-family: Yeseva One;
+}
+
+/* Header Section CSS End */
+
+/* Mission Section CSS Start */
+.mission-heading {
+  text-align: center;
+}
+.mission {
+  height: 380px;
+  width: 29%;
+  float: left;
+  margin-left: 2%;
+  padding: 1%;
+  border-radius: 10px;
+}
+.mission img {
+  width: 35%;
+}
+.missing-part {
+  background-color: #edf5f6;
+}
+.vision-part {
+  background-color: #ffeeee;
+}
+.goals-part {
+  background-color: #fff4d6;
+}
+/* Mission Section CSS End */
+
+/* Developer Section CSS Start */
+#developer {
+  background-image: url(images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 280px;
+}
+.develop-info {
+  width: 40%;
+  float: left;
+  padding-left: 5%;
+  margin-left: 2%;
+}
+.develop-info img {
+  width: 100%;
+}
+
+/* Developer Section CSS End */
+
+/* Community Section CSS Start */
+#community-section{
+   background-image: url(images/shapes/shape-1.png);
+   background-size: 200px;
+   background-repeat: no-repeat;
+   background-position: right bottom;
+}
+.community-part{
+   width: 40%;
+   float: left;
+   padding-left: 5%;
+   margin-left: 2%;
+}
+.community-part img{
+   width: 100%;
+}
+/* Community Section CSS End */
+
+/* Footer Section CSS Start */
+footer {
+  background-color: #0b0d17;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  font-family: Lobster;
+}
+
+footer span {
+  color: #ff5959;
+}
+
+/* Footer Section CSS End */
