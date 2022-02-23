@@ -1,3 +1,4 @@
+/* Extra CSS Start */
 body {
   font-family: Poppins;
   padding: 0;
@@ -12,12 +13,10 @@ h3 {
 h2 {
   font-size: 40px;
 }
-
 p {
   color: #3e3e3e;
   font-size: 18px;
 }
-
 button {
   padding: 15px 25px;
   border: none;
@@ -31,6 +30,7 @@ section {
   height: 550px;
   padding-bottom: 150px;
 }
+/* Extra CSS Start */
 
 /* Header Section CSS Start */
 .text-style {
@@ -38,9 +38,15 @@ section {
 }
 .person-info {
   width: 45%;
-  height: 400px;
+  /* height: 400px; */
   float: left;
   padding-left: 50px;
+}
+.person-img{
+  background-image: url(images/shapes/shape-4.png);
+  background-repeat: no-repeat;
+  background-position: -20% 20%;
+  background-size: 90%;
 }
 .person-info img {
   width: 80%;
@@ -49,7 +55,6 @@ section {
   border-left: 4px solid #ff5959;
   font-family: Yeseva One;
 }
-
 /* Header Section CSS End */
 
 /* Mission Section CSS Start */
@@ -94,7 +99,6 @@ section {
 .develop-info img {
   width: 100%;
 }
-
 /* Developer Section CSS End */
 
 /* Community Section CSS Start */
@@ -116,7 +120,6 @@ section {
 /* Community Section CSS End */
 
 /* Contact Section CSS Start */
-
 #contact-me h2 {
   text-align: center;
 }
@@ -127,7 +130,6 @@ section {
   color: white;
   font-size: 18px;
 }
-
 .contact-part {
   width: 40%;
   height: 350px;
@@ -138,7 +140,6 @@ section {
 .contact-info {
   background-image: url(images/pictures/contact-me.jpg);
   background-repeat: no-repeat;
-  /* background-position:; */
   background-size: 100%;
   border-radius: 10px;
   padding: 50px 0px 0px 50px;
@@ -161,9 +162,7 @@ footer {
   color: white;
   font-family: Lobster;
 }
-
 footer span {
   color: #ff5959;
 }
-
 /* Footer Section CSS End */
