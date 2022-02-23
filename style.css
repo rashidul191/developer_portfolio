@@ -40,7 +40,8 @@ section {
   width: 45%;
   /* height: 400px; */
   float: left;
-  padding-left: 50px;
+  padding-left: 3%;
+  margin-left: 2%;
 }
 .person-img{
   background-image: url(images/shapes/shape-4.png);
@@ -151,6 +152,7 @@ textarea {
   margin: 10px;
   font-size: 18px;
   color: gray;
+  border-radius: 5px;
 }
 /* Contact Section CSS End */
 
